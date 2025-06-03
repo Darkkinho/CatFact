@@ -23,9 +23,9 @@
 #### Tablet (largura >= 600dp)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-  <img src="ImageLayout/imageTablet1.png" alt="Imagem 1" width="200">
-  <img src="ImageLayout/imageTablet2.png" alt="Imagem 2" width="200">
-  <img src="ImageLayout/imageTablet3.png" alt="Imagem 3" width="200">
+  <img src="ImageLayout/imageTablet1.png" alt="Imagem 1" width="300">
+  <img src="ImageLayout/imageTablet2.png" alt="Imagem 2" width="300">
+  <img src="ImageLayout/imageTablet3.png" alt="Imagem 3" width="300">
 </div>
 
 ---
