@@ -55,3 +55,7 @@
 - Atualmente os idiomas disponiveis no arquivo strings.xml são português e inglês, caso o idioma do seu smartphone android esteja configurado para outro idioma, apenas o conteudo vindo da API sera traduzido, entretanto, o idioma da interface (titulo e botões), permanecerão padrão, que é em português.
 
 - Os textos salvos no histórico são armazenados de acordo com o idioma ativo no momento.  Portanto, se o usuário alterar o idioma do dispositivo depois, os textos do histórico não serão atualizados para o novo idioma.
+
+## Faça Download do app agora mesmo :D (Disponivel apenas para smartphones android)
+
+[Download CatFact](https://github.com/Darkkinho/CatFact/releases/download/v1.0/CatFact.apk)
