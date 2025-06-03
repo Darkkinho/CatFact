@@ -13,19 +13,19 @@
 #### smartphone
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-  <img src="ImageLayout/image1.JPEG" alt="Imagem 1" width="200">
-  <img src="ImageLayout/image2.JPEG" alt="Imagem 2" width="200">
-  <img src="ImageLayout/image3.JPEG" alt="Imagem 3" width="200">
-  <img src="ImageLayout/image4.JPEG" alt="Imagem 4" width="200">
-  <img src="ImageLayout/image5.JPEG" alt="Imagem 5" width="200">
+  <img src="ImageLayout/image1.jpeg" alt="Imagem 1" width="200">
+  <img src="ImageLayout/image2.jpeg" alt="Imagem 2" width="200">
+  <img src="ImageLayout/image3.jpeg" alt="Imagem 3" width="200">
+  <img src="ImageLayout/image4.jpeg" alt="Imagem 4" width="200">
+  <img src="ImageLayout/image5.jpeg" alt="Imagem 5" width="200">
 </div>
 
 #### Tablet (largura >= 600dp)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-  <img src="ImageLayout/imageTablet1.PNG" alt="Imagem 1" width="200">
-  <img src="ImageLayout/imageTablet2.PNG" alt="Imagem 2" width="200">
-  <img src="ImageLayout/imageTablet3.PNG" alt="Imagem 3" width="200">
+  <img src="ImageLayout/imageTablet1.png" alt="Imagem 1" width="200">
+  <img src="ImageLayout/imageTablet2.png" alt="Imagem 2" width="200">
+  <img src="ImageLayout/imageTablet3.png" alt="Imagem 3" width="200">
 </div>
 
 ---
