@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HistoricFragment.HistoricListFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearRecycleId"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/RecycleId"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearViewTextId"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/ColorHomeNav"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/textViewId"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_close_24"
+        android:layout_below="@id/linearViewTextId"
+        android:layout_alignEnd="@id/linearViewTextId"
+        android:backgroundTint="@color/Image_Close_BackGround"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/removeViewTextId"
+        android:contentDescription="@string/imageRemoveAccessibility"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

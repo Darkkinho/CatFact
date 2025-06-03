@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="#D0B7F6"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_marginBottom="10dp"
+        android:background="@color/ColorHomeNav"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbarId"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TextTitleFact"
+                android:layout_width="320dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/facts_about_cats"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_press_the_button"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginVertical="45dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingHorizontal="50dp"
+                style="@style/Widget.AppCompat.Button"
+                android:text="@string/Press_Button"
+                android:id="@+id/ButtonClickId"
+                android:textSize="16sp"
+                android:layout_marginBottom="45dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="15dp"
+                android:padding="4dp"
+                android:id="@+id/TextFactId"
+                android:visibility="gone"
+                android:background="@drawable/border"
+                />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progressid"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.Button"
+                android:text="@string/Button_Save"
+                android:textSize="16sp"
+                android:paddingHorizontal="50sp"
+                android:id="@+id/ButtonSavedId"
+                android:layout_marginTop="30dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/LinearRecycleId"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/RecycleId"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearViewTextId"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/ColorHomeNav"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="20dp"
+                    android:id="@+id/textViewId"
+                    />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_close_24"
+                android:layout_below="@id/linearViewTextId"
+                android:layout_alignEnd="@id/linearViewTextId"
+                android:backgroundTint="@color/Image_Close_BackGround"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/removeViewTextId"
+                android:contentDescription="@string/imageRemoveAccessibility"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

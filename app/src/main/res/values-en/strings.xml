@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatFact</string>
+    <string name="facts_about_cats">facts about cats</string>
+    <string name="imageRemoveAccessibility">image of an X, which is used to remove something</string>
+    <string name="text_press_the_button">press the button to show a fact about cats</string>
+    <string name="Press_Button">press</string>
+    <string name="Button_Save">save</string>
+    <string name="empty_field">empty field</string>
+    <string name="translation_error">error in translation</string>
+    <string name="error">error</string>
+    <string name="button_to_delete_the_item">button to delete the item</string>
+</resources>

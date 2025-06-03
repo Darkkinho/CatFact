@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CatFact</string>
+    <string name="facts_about_cats">Fatos Sobre Gatos</string>
+    <string name="imageRemoveAccessibility">imagem de um X, que serve para remover algo</string>
+    <string name="text_press_the_button">aperte o botão para mostrar um fato sobre gatos</string>
+    <string name="Press_Button">aperte</string>
+    <string name="Button_Save">salvar</string>
+    <string name="empty_field">campo vazio</string>
+    <string name="translation_error">erro na tradução</string>
+    <string name="error">error</string>
+    <string name="button_to_delete_the_item">botão para excluir o item</string>
+</resources>
